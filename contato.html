@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/favicons/favicon_logo_seed2.svg" type="image/x-icon" />
     <link rel="shortcut icon" href="assets/favicons/favicon_logo_seed.ico" />
-</head>
-<body>
-  <header>
-    <nav>
-      <div>
-        <ul>
-          <li><a href="index.html">Página Inicial</a><ul>
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <a class="tamanhologo"><img src="/assets/favicons/favicon_logo_seed.ico" width="50" height="50" alt="logo_seed"></a>
+        <a class="logo" href="/">Seed</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
+
     <section class="hero">
         <div class="container">
           <h2>Contato</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nostrum consectetur, voluptatum suscipit laudantium mollitia in quo molestiae accusantium veritatis voluptates ipsa eum vero voluptatem optio, eveniet fuga ratione accusamus.</p>
         </div>
       </section>
-    
-</body>
+  
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Seed. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
+  </body>
 </html>
