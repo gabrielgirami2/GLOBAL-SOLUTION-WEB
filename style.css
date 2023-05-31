@@ -175,3 +175,98 @@ footer {
 footer p {
   font-size: 14px;
 }
+
+
+
+.image_text1 {
+  background-image:url(/assets/images/dicas-para-agricultura-familiar.jpg);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  border-radius: 30%;
+}
+
+.image_text2 {
+  background-image:url(/assets/images/inteligencia_artificial.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+
+.image_text3 {
+  background-image: url(/assets/images/cultivo_eficiente.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+
+.image_text4 {
+background-image: url(/assets/images/agricultura-sustentavel.jpg);
+background-repeat: no-repeat,no-repeat;
+background-position: center;
+height: 500px;
+width: 100%;
+}
+
+
+
+.texto_redimensionado1 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 440px;
+}
+
+.texto_redimensionado2 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 440px;
+}
+
+.texto_redimensionado3 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 440px;
+}
+
+.texto_redimensionado4 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 440px;
+}
+
+#posicao_texto1 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: -20px;
+  
+  
+}
+
+#posicao_texto2 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: -30px;
+}
+
+#posicao_texto3 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: -30px;
+}
+
+#posicao_texto4 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: -30px;
+}
