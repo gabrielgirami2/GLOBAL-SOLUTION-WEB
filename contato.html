@@ -44,18 +44,106 @@
         
       <div class="container">
           
-        <h2>Contato</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nostrum consectetur, voluptatum suscipit laudantium mollitia in quo molestiae accusantium veritatis voluptates ipsa eum vero voluptatem optio, eveniet fuga ratione accusamus.</p>
+        <h2 id="titulo_pag_contato">Contato</h2>
+        <p id="paragrafo_pag_contato">Entre em contato conosco. Basta preencher o formulário abaixo que entraremos em contato.</p>
         
       </div>
       
+    </section>
+
+    <section class="formulario">
+
+      <form action="processar_formulario.php" method="POST">
+
+      <div>
+
+        <label for="nome">Nome Completo</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+    
+      </div>
+        
+      <div>
+
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+      </div>
+
+      <div>  
+      
+        <label for="telefone">Telefone de Contato</label><br>
+        <input type="tel" id="telefone" name="telefone"><br>
+    
+      </div>
+
+      <div>
+
+        <label for="produtos agrícolas">Principais Cultivos ou Produtos Agrícolas <label><br>
+        <input type="text" id="produtos agrícolas" name="produtos agrícolas"><br>
+
+      </div>
+      
+      <div>
+        <label for="metodo de cultivo">Método de Cultivo Utilizado</label><br>
+        
+        <select id="cultivo_utilizado_form" name="cultivo_utilizado">
+        
+          <option value="organico">Orgânico</option>
+          <option value="convencional">Convencional</option>
+          <option value="agroecologico">Agroecológico</option>
+          
+        </select><br>
+    
+      </div> 
+      
+      <div>
+        <label for="assunto">Assunto</label><br>
+        <input type="text" id="assunto" name="assunto" required><br>
+    
+      </div>
+      
+      <div>
+
+        <label for="mensagem">Mensagem</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="30" required></textarea><br>
+    
+      </div>  
+        
+      <div>
+      
+        <label for="propriedade">Tamanho da Propriedade</label><br>
+        
+        <select id="propriedade_form" name="propriedade">
+        
+          <option value="baixa">Pequeno porte</option>
+          <option value="média">Médio porte</option>
+          <option value="alta">Grande porte</option>
+        
+        </select><br>
+        
+      </div>
+      
+      <div>
+      
+        <label for="tipo de irrigaçao">Você utiliza algum tipo de irrigação? Se sim, qual método de irrigação é utilizado? <label><br>
+        <input type="text" id="tipo de irrigacao" name="tipo de irrigacao"><br>
+    
+      </div>
+      <div class="button">
+          
+        <button type="submit">Enviar</button>
+
+      </div>
+      
+      </form>
+
     </section>
   
     <footer>
       
       <div class="container">
       
-        p>&copy; 2023 Seed. Todos os direitos reservados.</p>
+        <p>&copy; 2023 Seed. Todos os direitos reservados.</p>
       
       </div>
     
