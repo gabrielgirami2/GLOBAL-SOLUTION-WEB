@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +23,10 @@ a:hover {
   
 }
 
-.tamanhologo {
-text
+.favicon {
+  margin-left: px;
 }
+
 
 nav {
   display: flex;
@@ -38,6 +42,8 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .nav-list li {
@@ -138,15 +144,7 @@ nav {
   background-color: #008080;
 }
 
-.tips {
-  padding: 50px 0;
-}
 
-.tips h3 {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 20px;
-}
 
 .grid {
   display: grid;
@@ -154,16 +152,7 @@ nav {
   gap: 20px;
 }
 
-.tip {
-  background-color: black;
-  padding: 20px;
-  text-align: center;
-}
 
-.tip h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
 
 footer {
   background-color: #333;
@@ -178,16 +167,16 @@ footer p {
 
 
 
-.image_text1 {
+.image_text_index1 {
   background-image:url(/assets/images/dicas-para-agricultura-familiar.jpg);
   height: 500px;
   width: 100%;
   background-repeat: no-repeat, no-repeat;
   background-position: center;
-  border-radius: 30%;
+  
 }
 
-.image_text2 {
+.image_text_index2 {
   background-image:url(/assets/images/inteligencia_artificial.png);
   background-repeat: no-repeat, no-repeat;
   background-position: center;
@@ -195,7 +184,7 @@ footer p {
   width: 100%;
 }
 
-.image_text3 {
+.image_text_index3 {
   background-image: url(/assets/images/cultivo_eficiente.jpg);
   background-repeat: no-repeat, no-repeat;
   background-position: center;
@@ -203,7 +192,7 @@ footer p {
   width: 100%;
 }
 
-.image_text4 {
+.image_text_index4 {
 background-image: url(/assets/images/agricultura-sustentavel.jpg);
 background-repeat: no-repeat,no-repeat;
 background-position: center;
@@ -213,60 +202,74 @@ width: 100%;
 
 
 
-.texto_redimensionado1 {
+.texto_redimensionado_index1 {
   display: flex;
   flex-direction: column;
   align-items:center;
   margin-top: 440px;
 }
 
-.texto_redimensionado2 {
+.texto_redimensionado_index2 {
   display: flex;
   flex-direction: column;
   align-items:center;
   margin-top: 440px;
 }
 
-.texto_redimensionado3 {
+.texto_redimensionado_index3 {
   display: flex;
   flex-direction: column;
   align-items:center;
   margin-top: 440px;
 }
 
-.texto_redimensionado4 {
+.texto_redimensionado_index4 {
   display: flex;
   flex-direction: column;
   align-items:center;
   margin-top: 440px;
 }
 
-#posicao_texto1 {
+.texto_redimensionado_index5 {
   display: flex;
   flex-direction: column;
   align-items:center;
-  margin-top: -20px;
+  font-family: 'Geologica', sans-serif;
+}
+
+#posicao_texto_index1 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: -30px;
+  font-family: 'Geologica', sans-serif;
   
-  
 }
 
-#posicao_texto2 {
+#posicao_texto_index2 {
   display: flex;
   flex-direction: column;
   align-items:center;
   margin-top: -30px;
+  font-family: 'Geologica', sans-serif;
 }
 
-#posicao_texto3 {
+#posicao_texto_index3 {
   display: flex;
   flex-direction: column;
   align-items:center;
   margin-top: -30px;
+  font-family: 'Geologica', sans-serif;
 }
 
-#posicao_texto4 {
+#posicao_texto_index4 {
   display: flex;
   flex-direction: column;
   align-items:center;
   margin-top: -30px;
+  font-family: 'Geologica', sans-serif;
+}
+
+#posicao_texto_index5 {
+  font-family: 'Geologica', sans-serif;
 }
