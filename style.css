@@ -349,3 +349,16 @@ height: 30px;
 font-family:'Geologica', sans-serif; ;
 }
 
+.rodape{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#equipe_rodape {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-content: space-between;
+  align-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
