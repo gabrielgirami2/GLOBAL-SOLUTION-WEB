@@ -489,6 +489,11 @@ font-family:'Geologica', sans-serif; ;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+footer img {
+  height: 40px;
+  width: 40px;
+}
+
 
 
 #equipe_rodape {
