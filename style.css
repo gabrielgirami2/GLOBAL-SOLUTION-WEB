@@ -491,6 +491,11 @@ font-family: Arial, Helvetica, sans-serif;
 margin-top: 20px;
 }
 
+footer img {
+  height: 40px;
+  width: 40px;
+}
+
 
 
 #equipe_rodape {
