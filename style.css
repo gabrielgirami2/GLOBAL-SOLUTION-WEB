@@ -14,7 +14,8 @@ a {
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.3;
+  color: greenyellow;
 }
 
 .logo {
@@ -204,7 +205,10 @@ nav {
     font-size: 16px;
   }
   
-  
+  .button_container {
+    margin-top:10px;
+  }
+
   .btn {
     padding: 8px 16px;
   }
@@ -295,6 +299,7 @@ footer {
   color:#fff;
   padding: 20px 0;
   text-align: center;
+  margin-top:40px;
 }
 
 footer p {
@@ -487,6 +492,7 @@ font-family:'Geologica', sans-serif; ;
 
 .rodape{
 font-family: Arial, Helvetica, sans-serif;
+margin-top: 20px;
 }
 
 footer img {
